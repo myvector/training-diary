@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Training Diary",
+    "slug": "training_diary",
+    "platforms": ["android"],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/rn-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#242832",
+      // "StatusBarStyle": "light"
+
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ru.chernyshovalexsander.training-diary",
+      "buildNumber": "1.0.1"
+    },
+    "android": {
+      "package": "ru.chernyshovalexsander.training_diary",
+      "versionCode": 2,
+      "permissions": ["WRITE_EXTERNAL_STORAGE"],
+      // "statusBar" : {"StatusBarStyle": "light"}
+      
+    },
+    "androidStatusBar":{
+    	"barStyle": "light-content",
+    	"translucent": true,
+    	"hidden": false,
+    	"backgroundColor": "#242832"
+    }
+  }
+}
